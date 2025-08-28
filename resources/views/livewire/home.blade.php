@@ -398,7 +398,7 @@
     </div>
     <!-- end Portfolio section -->
 
-    <!-- Testimonial section -->
+    <!-- Team section -->
     <div id="team" class="container max-w-[1320px] mx-auto px-5 md:px-10 xl:px-5 py-24 xl:py-28">
         <div class="swiper testimonial-slider relative pb-5 lg:pb-0">
             <div class="swiper-wrapper">
@@ -425,7 +425,7 @@
                             </p>
                         </div>
                         <div class="absolute top-0 right-0 opacity-20 text-white text-7xl xl:text-8xl">
-                            <i class="bi bi-quote"></i>
+
                         </div>
                     </div>
                 </div>
@@ -453,7 +453,7 @@
                             </p>
                         </div>
                         <div class="absolute top-0 right-0 opacity-20 text-white text-7xl xl:text-8xl">
-                            <i class="bi bi-quote"></i>
+
                         </div>
                     </div>
                 </div>
@@ -463,7 +463,7 @@
             <!-- end Slider Pagination Progress -->
         </div>
     </div>
-    <!-- end Testimonial section -->
+    <!-- end Team section -->
 
     <!-- Contact section -->
     <div id="contact" class="container max-w-[1320px] mx-auto px-5 md:px-10 xl:px-5 pt-24 xl:pt-28">
