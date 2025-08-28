@@ -18,7 +18,7 @@
     <meta property="og:title" content="Ilvarire Technologies – Web & App Development | Cybersecurity Solutions">
     <meta property="og:description"
         content="Custom software and mobile apps with robust cybersecurity strategies. Build and protect your digital future with Ilvarire Technologies.">
-    <meta property="og:image" content="https://www.ilvarire.com/assets/images/ogimage.jpg">
+    <meta property="og:image" content="https://www.ilvarire.com/assets/images/og-image.jpg">
 
 
     <meta name="twitter:card" content="summary_large_image">
@@ -26,7 +26,7 @@
     <meta name="twitter:title" content="Ilvarire Technologies – Web & App Development | Cybersecurity Solutions">
     <meta name="twitter:description"
         content="From innovative web apps to enterprise-grade security, Ilvarire Technologies covers all your digital needs.">
-    <meta name="twitter:image" content="https://www.ilvariretechnologies.com/assets/images/ogimage.jpg">
+    <meta name="twitter:image" content="https://www.ilvariretechnologies.com/assets/images/og-image.jpg">
 
     <link rel="canonical" href="https://www.ilvariretechnologies.com/">
 
