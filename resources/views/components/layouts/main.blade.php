@@ -18,7 +18,7 @@
     <meta property="og:title" content="Ilvarire Technologies – Web & App Development | Cybersecurity Solutions">
     <meta property="og:description"
         content="Custom software and mobile apps with robust cybersecurity strategies. Build and protect your digital future with Ilvarire Technologies.">
-    <meta property="og:image" content="https://www.ilvarire.com/assets/images/og-image.jpg">
+    <meta property="og:image" content="https://www.ilvarire.com/assets/images/ogimage.jpg">
 
 
     <meta name="twitter:card" content="summary_large_image">
@@ -26,7 +26,7 @@
     <meta name="twitter:title" content="Ilvarire Technologies – Web & App Development | Cybersecurity Solutions">
     <meta name="twitter:description"
         content="From innovative web apps to enterprise-grade security, Ilvarire Technologies covers all your digital needs.">
-    <meta name="twitter:image" content="https://www.ilvariretechnologies.com/assets/images/og-image.jpg">
+    <meta name="twitter:image" content="https://www.ilvariretechnologies.com/assets/images/ogimage.jpg">
 
     <link rel="canonical" href="https://www.ilvariretechnologies.com/">
 
@@ -58,7 +58,7 @@
                                 href="#contact">
                                 <span
                                     class="block relative text-transparent before:content-[attr(data-text)] before:absolute before:top-0 before:left-0 before:opacity-100 before:text-white before:transition-all before:ease-out before:duration-200 group-hover:before:-top-full group-hover:before:opacity-0 after:content-[attr(data-text)] after:absolute after:top-full after:left-0 after:opacity-0 after:text-white after:transition-all after:ease-out after:duration-200 group-hover:after:top-0 group-hover:after:opacity-100"
-                                    data-text="Let's Talk">Let's Talk</span>
+                                    data-text="Write Us">Write Us</span>
                             </a>
                         </li>
                         <li class="list-none inline-block">
