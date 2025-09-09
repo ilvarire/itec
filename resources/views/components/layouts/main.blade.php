@@ -101,6 +101,11 @@
                                 href="#contact"><i
                                     class="bi bi-arrow-right absolute top-1/2 left-0 -translate-y-1/2 opacity-0 invisible transition-all ease-linear duration-100 group-hover:opacity-100 group-hover:visible"></i>Contact</a>
                         </li>
+                        <li class="list-none"><a
+                                class="text-white block relative hover:pl-[26px] transition-all ease-out duration-300 group"
+                                href="{{ route('login')}}"><i
+                                    class="bi bi-arrow-right absolute top-1/2 left-0 -translate-y-1/2 opacity-0 invisible transition-all ease-linear duration-100 group-hover:opacity-100 group-hover:visible"></i>Login</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
