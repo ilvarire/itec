@@ -8,7 +8,7 @@
             <div>
                 <flux:input wire:model="email" :label="__('Email')" type="email" required autocomplete="email" />
 
-                @if (auth()->user() instanceof \Illuminate\Contracts\Auth\MustVerifyEmail &&! auth()->user()->hasVerifiedEmail())
+                @if (auth()->user() instanceof \Illuminate\Contracts\Auth\MustVerifyEmail && !auth()->user()->hasVerifiedEmail())
                     <div>
                         <flux:text class="mt-4">
                             {{ __('Your email address is unverified.') }}
@@ -26,6 +26,9 @@
                     </div>
                 @endif
             </div>
+            <flux:input wire:model="business_name" :label="__('Business Name')" disabled type="text" autofocus />
+            <flux:input wire:model="address" :label="__('Address')" type="text" disabled autofocus />
+            <flux:input wire:model="country" :label="__('Country')" type="text" disabled autofocus />
 
             <div class="flex items-center gap-4">
                 <div class="flex items-center justify-end">

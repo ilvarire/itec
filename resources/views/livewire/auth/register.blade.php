@@ -6,47 +6,37 @@
 
     <form method="POST" wire:submit="register" class="flex flex-col gap-6">
         <!-- Name -->
-        <flux:input
-            wire:model="name"
-            :label="__('Name')"
-            type="text"
-            required
-            autofocus
-            autocomplete="name"
-            :placeholder="__('Full name')"
-        />
+        <flux:input wire:model="name" :label="__('Name')" type="text" required autofocus autocomplete="name"
+            :placeholder="__('Full name')" />
 
         <!-- Email Address -->
-        <flux:input
-            wire:model="email"
-            :label="__('Email address')"
-            type="email"
-            required
-            autocomplete="email"
-            placeholder="email@example.com"
-        />
+        <flux:input wire:model="email" :label="__('Email address')" type="email" required autocomplete="email"
+            placeholder="email@example.com" />
+
+        <!-- Business name -->
+        <flux:input wire:model="business_name" :label="__('Business Name')" type="text" required autofocus
+            autocomplete="business name" :placeholder="__('Business name')" />
+
+        <!-- Address name -->
+        <flux:input wire:model="address" :label="__('Address')" type="text" required autofocus autocomplete="address"
+            :placeholder="__('Address')" />
+
+        <!-- Country name -->
+        <flux:select wire:model="country" :label="__('Country')" placeholder="Select country..." required autofocus>
+            <flux:select.option value="Nigeria">Nigeria</flux:select.option>
+            <flux:select.option value="Canada">Canada</flux:select.option>
+            <flux:select.option value="South Africa">South Africa</flux:select.option>
+            <flux:select.option value="United States">United States</flux:select.option>
+            <flux:select.option value="United Kingdom">United Kingdom</flux:select.option>
+        </flux:select>
 
         <!-- Password -->
-        <flux:input
-            wire:model="password"
-            :label="__('Password')"
-            type="password"
-            required
-            autocomplete="new-password"
-            :placeholder="__('Password')"
-            viewable
-        />
+        <flux:input wire:model="password" :label="__('Password')" type="password" required autocomplete="new-password"
+            :placeholder="__('Password')" viewable />
 
         <!-- Confirm Password -->
-        <flux:input
-            wire:model="password_confirmation"
-            :label="__('Confirm password')"
-            type="password"
-            required
-            autocomplete="new-password"
-            :placeholder="__('Confirm password')"
-            viewable
-        />
+        <flux:input wire:model="password_confirmation" :label="__('Confirm password')" type="password" required
+            autocomplete="new-password" :placeholder="__('Confirm password')" viewable />
 
         <div class="flex items-center justify-end">
             <flux:button type="submit" variant="primary" class="w-full">
